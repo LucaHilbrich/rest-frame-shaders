@@ -1,0 +1,4 @@
+# OS cruft only - everything else (including .meta files) must be committed.
+.DS_Store
+Thumbs.db
+*.tmp

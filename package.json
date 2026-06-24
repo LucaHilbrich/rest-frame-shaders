@@ -1,0 +1,31 @@
+{
+  "name": "com.restframe.shaders",
+  "version": "1.0.0",
+  "displayName": "Rest Frame Shaders",
+  "description": "Rest-frame-anchored 4D-noise cross-fade shaders for the Universal Render Pipeline. A lit mesh shader (VR/RestFrame), a terrain shader (VR/TerrainRestFrame) and a skybox shader (Skybox/RestFrame) cross-fade between two complete surfaces using one shared, rest-frame-anchored noise field that can be driven by an anchor object.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.0.0",
+    "jp.keijiro.noiseshader": "3.0.1"
+  },
+  "keywords": [
+    "shader",
+    "shaders",
+    "urp",
+    "noise",
+    "vr",
+    "skybox",
+    "terrain"
+  ],
+  "author": {
+    "name": "Rest Frame Shaders"
+  },
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "Example scene with materials, a motion script and demo assets.",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
