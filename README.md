@@ -37,9 +37,15 @@ registry. Add it **before** installing this package, or the install will fail to
 ]
 ```
 
-### 2. Add this package by Git URL
+### 2a. Add this package by downloading the zip file and unpacking it
 
-**Window > Package Manager > + > Add package from git URL…**
+**Window > Package Manager > + > Install package from disk…**
+
+Choose the package.json file inside the package folder.
+
+### 2b. Add this package by Git URL (DOES NOT WORK WITH ANONYMIZED REPOSITORY)
+
+**Window > Package Manager > + > Install package from git URL…**
 
 ```
 https://github.com/<your-username>/rest-frame-shaders.git
