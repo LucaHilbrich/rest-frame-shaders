@@ -43,7 +43,7 @@ registry. Add it **before** installing this package, or the install will fail to
 
 Choose the package.json file inside the package folder.
 
-### 2b. Add this package by Git URL (DOES NOT WORK WITH ANONYMIZED REPOSITORY)
+### 2b. Add this package by Git URL
 
 **Window > Package Manager > + > Install package from git URL…**
 
